@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Farming Dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+  <div class="container py-4">
+    <h2 class="mb-4">Smart Farming</h2>
+    <div class="row g-3">
+      
+      <!-- Card: Kelembaban -->
+      <div class="col-md-3">
+        <div class="card border-primary shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-primary">KELEMBABAN (RH)</h6>
+            <h3 class="text-primary">54%</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: TDS -->
+      <div class="col-md-3">
+        <div class="card border-success shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-success">TDS</h6>
+            <h3 class="text-success">400 ppm</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Kekeruhan -->
+      <div class="col-md-3">
+        <div class="card border-info shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-info">KERUHAN (TURBID)</h6>
+            <h3 class="text-info">18 NTU</h3>
+            <div class="progress mt-2" style="height: 6px;">
+              <div class="progress-bar bg-info" style="width: 30%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Temperatur Air -->
+      <div class="col-md-3">
+        <div class="card border-warning shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-warning">TEMPERATUR AIR (WTEMP)</h6>
+            <h3 class="text-warning">25 C</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Aliran Air -->
+      <div class="col-md-3">
+        <div class="card border-danger shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-danger">ALIRAN AIR (WFLOW)</h6>
+            <h3 class="text-danger">34</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Oksigen Terlarut -->
+      <div class="col-md-3">
+        <div class="card border-primary shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-primary">OKSIGEN TERLARUT (DISS. OXYGEN)</h6>
+            <h3 class="text-primary">10 ppm</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Intensitas Cahaya -->
+      <div class="col-md-3">
+        <div class="card border-success shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-success">INTENSITAS CAHAYA (LUX)</h6>
+            <h3 class="text-success">100 Lux</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Temperatur Udara -->
+      <div class="col-md-3">
+        <div class="card border-info shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-info">TEMPERATUR UDARA (AMTEMP)</h6>
+            <h3 class="text-info">34 C</h3>
+            <div class="progress mt-2" style="height: 6px;">
+              <div class="progress-bar bg-info" style="width: 50%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: EC -->
+      <div class="col-md-3">
+        <div class="card border-warning shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-warning">EC</h6>
+            <h3 class="text-warning">2</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: pH -->
+      <div class="col-md-3">
+        <div class="card border-danger shadow-sm">
+          <div class="card-body">
+            <h6 class="card-title text-danger">pH</h6>
+            <h3 class="text-danger">7.1</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
